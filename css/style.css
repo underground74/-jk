@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserrat', sans-serif
+    
+}
+main{
+    flex-grow: 1;
+}
+.conteiner{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.delivery{
+    background: #212121;
+    color: #fff;
+}
+
+.delivery .conteiner{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 69px;
+}
+.delivery h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.delivery h2 span{
+    font-weight: normal;
+}
+.delivery p{
+    font-size: 21px;
+}
+
+/*---------------------------section man-women-------------------*/
+.men-women .conteiner{
+display: flex;
+text-transform: capitalize;
+}
+.man,
+.woman{
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 58px;
+    padding-left: 35px;
+
+}
+.men-women h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+}
+.men-women h2 span{
+    font-weight: normal;
+
+}
+.men-women a{
+    background: #d7b399;
+    width:80px ;
+    height: 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.men-women a :hover,
+.men-women a :focus{
+    background:  #997a64;
+}
+
+.men-women{
+    background: #f9f6f1;
+}
+.man{
+    background-image: url(../img/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.woman{
+    background-image: url(../img/woman.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+/*---------------------------------каталог----------------------------------*/
+
+.catalog{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.card{
+    border: #d7b399 1px solid;
+    text-align: center;
+    padding: 22px 25px 22px;
+
+}
+
+.new button{
+    background: #D7B399;
+    width: 220px;
+    height: 55px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+}
+.new button :hover,
+.new button :focus {
+    background: #997a64;
+}
+
+.new .conteiner{
+    text-align: center;
+    padding-bottom: 197px;
+    padding-top: 193px ;
+}
